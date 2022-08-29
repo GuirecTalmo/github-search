@@ -1,0 +1,19 @@
+$very_dark-blue: #141c2f;
+$white: #fff;
+
+$themes: (
+  "dark": (
+    base0: #fff,
+    base1: #141c2f,
+    base2: #1f2a48,
+    base3: #c5c5c5,
+    base4: #0179f8,
+  ),
+  "light": (
+    base0: #3c3c3c,
+    base1: #f4f7fe,
+    base2: #fbfbfb,
+    base3: #e7e7e7,
+    base4: #2da44e,
+  ),
+);

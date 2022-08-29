@@ -1,0 +1,84 @@
+@use 'reset';
+@import 'vars';
+@import "theme";
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700&display=swap');
+
+body {
+font-family: 'Inconsolata', monospace;
+width: 100%;
+}
+
+.main--light {
+
+  background-color: map-get(map-get($themes, "light"), "base1");
+  color: map-get(map-get($themes, "light"), "base0");
+  transition: background 2s;
+}
+
+.main--dark {
+  background-color: map-get(map-get($themes, "dark"), "base1");
+  color: map-get(map-get($themes, "dark"), "base0");
+  transition: background 2s;
+}
+
+.theme--light {
+
+    background-color: map-get(map-get($themes, "light"), "base2");
+    color: map-get(map-get($themes, "light"), "base0");
+    transition: background 2s;
+}
+
+.theme--dark {
+    background-color: map-get(map-get($themes, "dark"), "base2");
+    color: map-get(map-get($themes, "dark"), "base0");
+    transition: background 2s;
+}
+
+.table--light {
+
+  background-color: map-get(map-get($themes, "light"), "base1");
+  color: map-get(map-get($themes, "light"), "base0");
+  transition: background 2s;
+}
+
+.table--dark {
+  background-color: map-get(map-get($themes, "dark"), "base1");
+  color: map-get(map-get($themes, "dark"), "base0");
+  transition: background 2s;
+}
+
+.button--light {
+
+  background-color: map-get(map-get($themes, "light"), "base4");
+  color: map-get(map-get($themes, "light"), "base1");
+  transition: background 2s;
+}
+
+.button--dark {
+  background-color: map-get(map-get($themes, "dark"), "base4");
+  color: map-get(map-get($themes, "dark"), "base0");
+  transition: background 2s;
+}
+
+
+.header--light {
+
+  color: map-get(map-get($themes, "light"), "base0");
+  transition: 2s;
+}
+
+.header--dark {
+  color: map-get(map-get($themes, "dark"), "base0");
+  transition: 2s;
+}
+
+.svg--light {
+
+  transition: 1s;
+}
+
+.svg--dark {
+  filter: invert(0%) sepia(0) saturate(7500%) hue-rotate(111deg) brightness(230%) contrast(108%);
+  transition: 1s;
+}

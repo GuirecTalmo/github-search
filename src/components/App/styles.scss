@@ -1,0 +1,40 @@
+@import '../../styles/index.scss';
+
+.main {
+
+  min-width: 100%;
+  min-height: 100vh;
+
+}
+
+.app {
+
+  display: block;
+  max-width: 600px;
+  margin: auto;
+
+  @media (max-width: $desktop_width) { 
+
+      display: block;
+      max-width: 90%;
+      margin: auto;
+
+  }
+}
+
+h2 {
+
+  font-size: 1.4em;
+  font-weight: 600;
+}
+
+p {
+
+  font-size: 0.9em;
+  font-weight: 500;
+
+}
+
+
+
+
